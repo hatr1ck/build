@@ -1,0 +1,39 @@
+.tetris{
+    text-align: center;
+    background-color: #8b6b9e;
+    height:100vh;
+}
+.wree{
+   display: inline-block;
+}
+.over{
+    max-width: 400px;
+    position: absolute;
+    min-width: 300px;
+    height: 200px;
+    font-size: 30px;
+    animation: anime 2s linear;
+    display: inline-block;
+    margin-top: 10%;
+    z-index: 10;
+}
+.cont{
+    margin-top: 2%;
+    font-family: fantasy;
+      display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes anime {
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    50%{
+        transform: scale(1.2);
+    }
+    100%{
+        opacity: .9;
+        transform: scale(1);
+    }
+}

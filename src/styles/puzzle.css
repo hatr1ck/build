@@ -1,0 +1,40 @@
+
+.game{
+	display: inline-block;
+	width: 342px;
+	padding: 0;
+	position:relative;
+
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+/* .gamewrap::after, ::before {
+	box-sizing: content-box !important;
+  } */
+.gamewrap{
+	height: 100vh;
+	display: flex;
+    align-items: center;
+    justify-content:center;
+	background-color: rgb(121, 78, 78);
+}
+.oops{
+	font-size: 0px !important;
+	border: 0px !important;
+	height: 0px !important;
+	width:84px !important;
+	margin: 0 !important;
+	top: -40px;
+	position: relative;
+}
+.game1{
+	padding: 0;
+	margin:0;
+	border: 3px solid #009999;
+}
+.somebody{
+	font-size: 27px;
+}
+.bat{
+	margin-top: 5px;
+	width: 90%;
+}

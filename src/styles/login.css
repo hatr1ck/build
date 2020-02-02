@@ -1,0 +1,88 @@
+.alert {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    display: inline-block;
+    position: relative;
+}
+
+.signUp {
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #3AB486;
+}
+
+.butn {
+    padding: 10px;
+    opacity: .7;
+    display: inline-block;
+    width: 250px;
+    background-color: #1F1F22;
+}
+
+.signIn {
+    width: 250px;
+    padding: 10px;
+    display: inline-block;
+    background-color: #3AB486;
+}
+
+.butn:hover {
+    background-color: #3AB486;
+    opacity: .6;
+}
+
+.signIn:hover {
+    opacity: 0.8;
+}
+
+.signUp:hover {
+    opacity: 0.8;
+}
+
+.goGrey {
+    border-radius: 1%;
+    padding: 30px;
+    background-color: #2C353F;
+    min-height: 500px;
+    max-width: 600px;
+    display: inline-block;
+    box-shadow: 0 0 100px rgba(0,0,0,0.5);
+}
+
+.ins {
+    text-align: center;
+}
+
+.reg {
+    text-align: center;
+}
+
+.Registered {
+    margin: 1%;
+    width: 500px;
+    display: inline-block;
+}
+.googl{
+  display: inline-block;
+  background-color:#D34748;
+  font-size: 20px;
+  padding: 1.9px;
+  width: 250px;
+}
+.googl:hover{
+  opacity: 0.8;
+}
+ .an, .an:hover, .an:focus, .an:active {
+      text-decoration: none;
+      color: white;
+ }
+
+ .erar{
+  color: #CA3F4E;
+  font-size: 20px;
+ }

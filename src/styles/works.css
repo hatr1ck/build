@@ -1,0 +1,101 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(14,40px);
+    grid-template-rows: repeat(12,40px);
+    position: relative;
+    margin: auto;
+    gap: 10px;
+}
+.wrapperss{
+    background-color: #3C376A;
+    display: flex;
+}
+.grid__item__puzzle {
+    grid-column: 1 / 5;
+    grid-row: 1 / 5;
+}
+.grid__item__canvas {
+    grid-column: 9 / 15;
+    grid-row: 1 / 4;
+}
+.grid__item__bigBen {
+    grid-column: 1 / 9;
+    grid-row: 5 / 9;
+}
+.grid__item__winter {
+    grid-column: 1 / 9;
+    grid-row: 9 / 11;
+}
+.grid__item__socket {
+    grid-column: 9 / 15;
+    grid-row: 4 / 9;
+}
+.grid__item__tetris {
+    grid-column: 9 / 15;
+    grid-row: 9 / 11;
+}
+.grid__item__life {
+    grid-column: 5 / 9;
+    grid-row: 1 / 5;
+}
+
+@media screen and (max-width: 400px) {
+  .grid__item__puzzle {
+  display: block;
+  position: relative;
+  }
+  .grid__item__canvas {
+      display: block;
+      width: 100vw;
+      position: relative;
+      height: 100vh;
+  }
+  .grid__item__bigBen {
+      display: block;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+  }
+  .grid__item__winter {
+      display: block;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+  }
+  .grid__item__socket {
+      display: block;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+  }
+  .grid__item__tetris {
+      display: block;
+      position: relative;
+      height: 100vh;
+      width: 100vw;
+  }
+  .grid__item__life {
+      display: block;
+      width: 100vw;
+      position: relative;
+      height: 100vh;
+  }
+  .grid{
+    display: inline-block;
+  }
+  .wrapperss{
+      display: inline-block;
+  }
+}
+ @media screen and (max-width: 700px) {
+   .grid{
+        grid-template-columns: repeat(14,30px);
+       grid-template-rows: repeat(12,30px);
+   }
+ }
+ @media screen and (max-width: 500px) {
+   .grid{
+        grid-template-columns: repeat(14,20px);
+       grid-template-rows: repeat(12,20px);
+   }
+ }
